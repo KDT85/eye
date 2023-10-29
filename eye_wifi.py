@@ -11,9 +11,6 @@ password = 'password'
 #set up pins
 eye = PWM(Pin(0))
 lid = PWM(Pin(1))
-btn1 = Pin(20, Pin.IN, Pin.PULL_DOWN)
-btn2 = Pin(21, Pin.IN, Pin.PULL_DOWN)
-btn3 = Pin(22, Pin.IN, Pin.PULL_DOWN)
 
 eye.freq(50)
 lid.freq(50)
